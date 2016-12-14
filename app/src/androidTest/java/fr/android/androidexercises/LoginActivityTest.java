@@ -1,5 +1,6 @@
 package fr.android.androidexercises;
 
+import android.support.test.InstrumentationRegistry;
 import android.support.test.espresso.Espresso;
 import android.support.test.espresso.action.ViewActions;
 import android.support.test.espresso.assertion.ViewAssertions;
@@ -15,7 +16,7 @@ public class LoginActivityTest extends ActivityInstrumentationTestCase2<LoginAct
     @Override
     public void setUp() throws Exception {
         super.setUp();
-        //injectInstrumentation(InstrumentationRegistry.getInstrumentation());
+        injectInstrumentation(InstrumentationRegistry.getInstrumentation());
         getActivity();
     }
 
