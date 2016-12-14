@@ -7,6 +7,13 @@ public class Book {
     private String price;
     private String cover;
 
+    public Book(String isbn,String title,String price,String cover){
+        this.isbn = isbn;
+        this.title = title;
+        this.price = price;
+        this.cover = cover;
+    }
+
     public String getIsbn() {
         return isbn;
     }
