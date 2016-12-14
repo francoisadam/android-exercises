@@ -19,7 +19,9 @@ public class LoginActivityTest extends ActivityInstrumentationTestCase2<LoginAct
         //Spoon.screenshot(getCurrentActivity(), name);
     }
 
-//    public Activity getCurrentActivity() {
+//
+//
+//   public Activity getCurrentActivity() {
 //        Instrumentation instrumentation = InstrumentationRegistry.getInstrumentation();
 //        instrumentation.waitForIdleSync();
 //        final Activity[] activity = new Activity[1];
